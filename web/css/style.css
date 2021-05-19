@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/04/2021, 03:07:27 PM
+    Author     : Asus VivoBook
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef; 
+    text-transform: uppercase;
+}
+.logo{
+    height: 70px;
+    padding: 2px 10px;
+}
+.icon-bar{
+    background: darkred;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(42, 47, 53);
+  color: #efefef;
+  text-align: center;
+}
+body{
+    background:  url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family:'Poppins',sans-serif;
+}
+.content{
+    margin: 8%;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0,0,0, .05);
+    
+}
+.signin-text{
+    font-style:normal;
+    font-weight: 700;
+    color:darkorange;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size:1rem;
+    font-weight: 400;
+    line-height:1.5;
+    border-color: #00ac96;
+    border-style:solid;
+    border-width: 0 0 1px 0;
+    padding: 0px;
+    color:#495057;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+    
+}
+.form-control:focus{
+    color:#495057;
+    background-color:#fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+    
+    
+}
+.btn-class{
+    border-color:blue;
+    color: darkorange;
+}
+.btn-class:hover{
+    background-color:coral;
+}
+
+.img-fluid{
+        height: 300px;
+    padding: 5px 10px;
+}
+
+img{
+     height: 200px;
+    padding: 5px 10px;
+}
